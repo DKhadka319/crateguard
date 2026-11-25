@@ -1,0 +1,13 @@
+model,condition,deps,pct_hallucinated,pct_bad_version,pct_vulnerable,pct_unmaintained
+deepseek-coder:6.7b,baseline,228,7.0,10.5,4.4,3.5
+deepseek-coder:6.7b,guarded,212,3.8,8.5,1.4,0.9
+gemini-3.5-flash-lite,baseline,216,0.0,0.0,2.3,1.4
+gemini-3.5-flash-lite,guarded,216,0.0,0.5,0.5,0.0
+gpt-4o-mini,baseline,274,1.5,3.3,4.0,5.1
+gpt-4o-mini,guarded,275,2.2,5.8,0.7,0.7
+gpt-oss:20b,baseline,303,1.7,6.6,3.6,3.0
+gpt-oss:20b,guarded,278,1.1,4.3,0.4,0.0
+llama3.1:8b,baseline,262,6.9,24.0,1.1,4.2
+llama3.1:8b,guarded,245,4.9,19.6,0.0,3.7
+qwen2.5-coder:7b,baseline,222,3.2,6.8,6.8,2.3
+qwen2.5-coder:7b,guarded,220,1.4,10.9,0.0,2.3

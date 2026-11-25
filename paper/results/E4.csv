@@ -1,0 +1,21 @@
+invented_crate,models,by_models
+serde_xml_rs,4,"['deepseek-coder:6.7b', 'gpt-oss:20b', 'qwen2.5-coder:7b', 'gpt-4o-mini']"
+alloc,2,"['deepseek-coder:6.7b', 'gpt-4o-mini']"
+actix-limit,1,['qwen2.5-coder:7b']
+actix-web-actors-multipart,1,['llama3.1:8b']
+actix-web-cors,1,['llama3.1:8b']
+arrow-rs,1,['deepseek-coder:6.7b']
+aws_config,1,['llama3.1:8b']
+aws_sdk_s3,1,['llama3.1:8b']
+axum-multipart,1,['gpt-oss:20b']
+diesel_r2d2,1,['llama3.1:8b']
+elf-rs,1,['deepseek-coder:6.7b']
+graphql_parser,1,['llama3.1:8b']
+gtk-embed,1,['llama3.1:8b']
+gtk-optional,1,['llama3.1:8b']
+html-sanitizer,1,['llama3.1:8b']
+hyper_tls,1,['deepseek-coder:6.7b']
+jpeg,1,['gpt-4o-mini']
+js-ffi,1,['llama3.1:8b']
+lucene,1,['qwen2.5-coder:7b']
+neo4j-client,1,['gpt-oss:20b']

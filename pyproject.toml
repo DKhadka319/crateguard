@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crateguard"
+version = "0.1.0"
+description = "Check and repair Rust dependencies suggested by AI coding assistants, using a Neo4j graph of RustSec advisories."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Dhiraj Khadka"}]
+requires-python = ">=3.11"
+dependencies = ["neo4j>=5.0"]
+optional-dependencies = {severity = ["cvss>=3.0"], test = ["pytest>=7"]}
+keywords = ["rust", "cargo", "security", "rustsec", "neo4j", "llm", "supply-chain"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Topic :: Security"]
+
+[project.scripts]
+crateguard = "crateguard.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/DKhadka319/crateguard"
+
+[tool.setuptools]
+packages = ["crateguard", "crateguard.data"]
+
+[tool.setuptools.package-data]
+"crateguard.data" = ["*.json"]

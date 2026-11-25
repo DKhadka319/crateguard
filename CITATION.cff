@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use crateguard or its dataset, please cite it as below."
+title: "crateguard: Checking AI-recommended Rust dependencies with a Neo4j vulnerability graph"
+authors:
+  - family-names: Khadka
+    given-names: Dhiraj
+version: 0.1.0
+date-released: 2026-12-02
+license: MIT
+repository-code: "https://github.com/DKhadka319/crateguard"
+keywords: [rust, cargo, rustsec, neo4j, large language models, software supply chain]
+preferred-citation:
+  type: report
+  title: "Do AI Coding Assistants Recommend Vulnerable Rust Libraries? Using a Neo4j Vulnerability Graph as a Guard"
+  authors:
+    - family-names: Khadka
+      given-names: Dhiraj
+  year: 2026
+  notes: "CSCI 5304 final research project report"

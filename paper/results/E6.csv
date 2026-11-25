@@ -1,0 +1,11 @@
+category,answers,pct_with_problem
+systems,60,48.3
+files,60,40.0
+crypto,60,36.7
+web-server,60,33.3
+serialization,60,33.3
+database,60,33.3
+http-client,60,28.3
+async,60,20.0
+cli,60,15.0
+text-time,60,13.3

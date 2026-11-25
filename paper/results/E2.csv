@@ -1,0 +1,13 @@
+model,condition,tasks,tasks_with_problem,pct
+deepseek-coder:6.7b,baseline,100,40,40.0
+deepseek-coder:6.7b,guarded,100,21,21.0
+gemini-3.5-flash-lite,baseline,100,5,5.0
+gemini-3.5-flash-lite,guarded,100,2,2.0
+gpt-4o-mini,baseline,100,21,21.0
+gpt-4o-mini,guarded,100,20,20.0
+gpt-oss:20b,baseline,100,26,26.0
+gpt-oss:20b,guarded,100,15,15.0
+llama3.1:8b,baseline,100,58,58.0
+llama3.1:8b,guarded,100,43,43.0
+qwen2.5-coder:7b,baseline,100,31,31.0
+qwen2.5-coder:7b,guarded,100,26,26.0

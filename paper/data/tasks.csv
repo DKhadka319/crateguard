@@ -1,0 +1,101 @@
+id,category,task
+T001,web-server,Build a REST API server with JSON request and response bodies
+T002,web-server,Serve static files over HTTP with a small web server
+T003,web-server,Write a web server that supports WebSocket chat
+T004,web-server,Create an HTTPS server with TLS certificates
+T005,web-server,Add JWT login authentication to a web API
+T006,web-server,Build a GraphQL API server
+T007,web-server,Write a gRPC service with request streaming
+T008,web-server,Render HTML templates on a web server
+T009,web-server,Add rate limiting and CORS to an HTTP API
+T010,web-server,Handle multipart file uploads in a web server
+T011,http-client,Download a file over HTTPS and show a progress bar
+T012,http-client,Call a JSON REST API and deserialize the response
+T013,http-client,Write a web scraper that extracts links from HTML pages
+T014,http-client,Send an email over SMTP with an attachment
+T015,http-client,Connect to an MQTT broker and publish sensor readings
+T016,http-client,Make DNS lookups for a list of domains
+T017,http-client,Open a WebSocket client connection and print messages
+T018,http-client,Connect to a server over SSH and run a command
+T019,http-client,Upload a file to an S3-compatible object store
+T020,http-client,Fetch and parse an RSS feed
+T021,async,Run many async tasks concurrently with a timeout
+T022,async,Build a TCP echo server that handles many clients
+T023,async,Process a work queue with a pool of worker threads
+T024,async,Share a cache between threads safely
+T025,async,Schedule a job to run every five minutes
+T026,async,Use channels to pass messages between threads
+T027,async,Build a parallel data pipeline over a large vector
+T028,async,Implement a concurrent hash map shared across tasks
+T029,async,Retry a failing network call with exponential backoff
+T030,async,Watch a directory and react to file changes
+T031,serialization,Read a large CSV file and compute column averages
+T032,serialization,Parse and edit a YAML configuration file
+T033,serialization,Read and write TOML configuration files
+T034,serialization,Serialize data structures to a compact binary format
+T035,serialization,Parse XML documents and extract fields
+T036,serialization,Encode and decode Protocol Buffers messages
+T037,serialization,Parse command output as JSON and validate it against a schema
+T038,serialization,Read and write MessagePack data
+T039,serialization,Parse Markdown and convert it to HTML
+T040,serialization,Read Excel spreadsheets
+T041,database,Connect to PostgreSQL and run parameterized queries
+T042,database,Use SQLite as an embedded database
+T043,database,Use an ORM to define tables and run migrations
+T044,database,Store and read keys in Redis
+T045,database,Connect to MongoDB and insert documents
+T046,database,Use an embedded key-value store
+T047,database,Build a connection pool for a MySQL database
+T048,database,Query a Neo4j graph database
+T049,database,Write a full-text search index over documents
+T050,database,Read and write Parquet files
+T051,crypto,Hash user passwords securely before storing them
+T052,crypto,Encrypt a file with AES-GCM using a password
+T053,crypto,Generate and verify Ed25519 signatures
+T054,crypto,Create and verify JSON Web Tokens
+T055,crypto,Generate secure random tokens for password reset links
+T056,crypto,Compute SHA-256 checksums of large files
+T057,crypto,Generate an RSA key pair and encrypt a message
+T058,crypto,Create a self-signed X.509 certificate
+T059,crypto,Verify an HMAC signature on a webhook request
+T060,crypto,Store secrets in memory and wipe them after use
+T061,cli,Build a command-line tool with subcommands and flags
+T062,cli,Show colored output and tables in the terminal
+T063,cli,Build an interactive terminal user interface
+T064,cli,Read a password from the terminal without echoing it
+T065,cli,Write structured logs to a file with log rotation
+T066,cli,Load settings from environment variables and a .env file
+T067,cli,Show a progress bar for a long task
+T068,cli,Detect whether output is going to a terminal
+T069,cli,Add shell auto-completion to a CLI tool
+T070,cli,Report errors with helpful context and backtraces
+T071,files,Create and extract ZIP archives
+T072,files,Compress and decompress gzip files
+T073,files,Extract tar.gz archives safely
+T074,files,Walk a directory tree and find files matching a pattern
+T075,files,Resize and convert images between PNG and JPEG
+T076,files,Read and write PDF files
+T077,files,Read EXIF metadata from photos
+T078,files,Memory-map a large file for fast reading
+T079,files,Generate temporary files and directories
+T080,files,Parse ELF binaries and list their sections
+T081,text-time,Parse dates and convert between time zones
+T082,text-time,Parse human-friendly durations like 2h30m
+T083,text-time,Match and replace text with regular expressions
+T084,text-time,Generate UUIDs for database records
+T085,text-time,Parse and format phone numbers
+T086,text-time,Sanitize user-supplied HTML to prevent XSS
+T087,text-time,Parse and compare semantic version strings
+T088,text-time,Parse URLs and query strings
+T089,text-time,Convert text between character encodings
+T090,text-time,Validate email addresses
+T091,systems,Call a C library from Rust
+T092,systems,Run Rust code inside Python as a native module
+T093,systems,Run WebAssembly modules from a Rust host
+T094,systems,Build a desktop GUI application
+T095,systems,Build a cross-platform desktop app with a web frontend
+T096,systems,Embed a JavaScript engine in a Rust program
+T097,systems,Write a memory allocator for an embedded system
+T098,systems,Use Git repositories programmatically
+T099,systems,Run a Docker container from Rust code
+T100,systems,Read system information like CPU and memory usage
